@@ -1,25 +1,30 @@
 {
   "expo": {
-    "name": "sps-athletetrack",
+    "name": "SPS AthleteTrack",
     "slug": "sps-athletetrack",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/app-icon.png",
+    "orientation": "default",
     "userInterfaceStyle": "light",
     "ios": {
+      "bundleIdentifier": "ph.edu.bnhs.spsathletetrack",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "ph.edu.bnhs.spsathletetrack",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+        "foregroundImage": "./assets/images/app-icon.png",
+        "backgroundColor": "#0B1F3A"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "72a23dbd-c862-47f0-8665-e11004b6a854"
+      }
+    },
+    "owner": "vergelvillaranda"
   }
 }
